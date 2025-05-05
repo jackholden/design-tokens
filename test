@@ -1,0 +1,51 @@
+{
+  "Primitive": {
+    "red-100": {
+      "$type": "color",
+      "$value": "#ffa1a1",
+      "$description": "",
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:2:3",
+          "collection": {
+            "id": "VariableCollectionId:2:2",
+            "name": "Primitive",
+            "defaultModeId": "2:0"
+          }
+        }
+      }
+    }
+  },
+  "Semantic": {
+    "primary": {
+      "$type": "color",
+      "$value": "{Primitive.red-100}",
+      "$description": "The primary brand colour",
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:2:5",
+          "collection": {
+            "id": "VariableCollectionId:2:4",
+            "name": "Semantic",
+            "defaultModeId": "2:1"
+          }
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "tokens-bruecke-meta": {
+      "useDTCGKeys": true,
+      "colorMode": "hex",
+      "variableCollections": [
+        "Primitive",
+        "Semantic"
+      ],
+      "createdAt": "2025-05-05T08:02:08.376Z"
+    }
+  }
+}
